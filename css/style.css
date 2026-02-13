@@ -7,13 +7,13 @@
 }
 
 body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    font-weight: 400; /* Standard reading weight */
+    font-family: 'Inter';
+    font-weight: 400;
     line-height: 1.6;
     color: #1a252c;
 }
 
 h1 {
-    font-weight: 800; /* Extra Bold */
-    letter-spacing: -0.02em; /* Inter looks great tight in headers */
+    font-weight: 800;
+    letter-spacing: -0.02em;
 }
