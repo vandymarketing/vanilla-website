@@ -1,6 +1,6 @@
-# 🌐 My First GitHub Website
+# 🌐 Vanilla Website
 
-Welcome to my personal website! This project is hosted using **GitHub Pages** and serves as a starting point for my web development journey.
+Welcome to our vanilla website! This project is hosted using **GitHub Pages**.
 
 ## 🚀 Live Demo
 You can view the live site here: [https://vandymarketing.github.io/](https://vandymarketing.github.io/my-project-website/).
@@ -20,3 +20,4 @@ You can view the live site here: [https://vandymarketing.github.io/](https://van
 2. Open `index.html` in your browser to see changes locally.
 3. Push changes to the `main` branch to update the live site automatically.
 
+Created by Vandy Marketing
