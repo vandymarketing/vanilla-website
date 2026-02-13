@@ -18,3 +18,10 @@ h1 {
     font-weight: 800;
     letter-spacing: -0.02em;
 }
+
+.defaultBtn {
+    border: 99px;
+    color: #ffffff;
+    background-color: #1cbcff;
+    
+}
