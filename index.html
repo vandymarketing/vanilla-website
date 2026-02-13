@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--SEARCH ENGINE OPTIMIZATION-->
+
     <title>Vanilla Website | Vandy Marketing</title>
     <meta name="title" content="Vanilla Website | Vandy Marketing">
-    <meta name="description" content="A clean, modern personal website built with Inter Variable typography.">
+    <meta name="description" content="A clean, modern personal website built with Inter Variable typography for professional marketing solutions.">
+    
+    <link rel="canonical" href="https://yourusername.github.io/">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://yourusername.github.io/">
@@ -20,21 +22,51 @@
     <meta name="twitter:description" content="A clean, modern personal website built with Inter Variable typography.">
     <meta name="twitter:image" content="https://yourusername.github.io/assets/images/social-preview.png">
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Vandy Marketing",
+      "url": "https://yourusername.github.io/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yourusername.github.io/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a> | 
-        <a href="about.html">About</a> | 
-        <a href="contact.html">Contact</a>
-    </nav>
 
-    <main class="container">
-        <h1>Welcome to Our Home Page</h1>
-        <p>This is the first page people see when they visit my site.</p>
-        <button class="defaultBtn">Button</button>
+    <a href="#main-content" class="skip-link" style="position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden;">Skip to main content</a>
+
+    <header role="banner">
+        <nav aria-label="Main Navigation">
+            <ul style="list-style: none; display: flex; gap: 1rem; padding: 0;">
+                <li><a href="/" aria-current="page" style="font-weight: bold;">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" class="container">
+        <section aria-labelledby="hero-heading">
+            <h1 id="hero-heading">Welcome to Vandy Marketing</h1>
+            <p>This is a high-performance, accessible, and SEO-optimized foundation for your digital presence.</p>
+            
+            <button class="defaultBtn" aria-label="Learn more about our marketing services">Get Started</button>
+        </section>
     </main>
 
-    <script src="js/script.js"></script>
+    <footer role="contentinfo">
+        <hr>
+        <p>&copy; 2026 Vandy Marketing. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
 </body>
 </html>
